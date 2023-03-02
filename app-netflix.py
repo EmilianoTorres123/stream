@@ -10,7 +10,7 @@ st.title('netflix app')
 st.title('Nombre: Aarron Emiliano Torres')
 st.title('Matricula: zS20006726')
 #--- LOGO ---#
-st.sidebar.image("logo.jpeg")
+st.sidebar.image("logo.jpg")
 st.sidebar.markdown("##")
 
 @st.cache
