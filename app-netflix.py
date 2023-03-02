@@ -7,10 +7,10 @@ name_link =codecs.open('movies.csv','rU','latin1')
 
 
 st.title('netflix app')
-st.title('Nombre: Magdyel Aguilar Cid')
-st.title('Matricula:zS20020309')
+st.title('Nombre: Aarron Emiliano Torres')
+st.title('Matricula: zS20006726')
 #--- LOGO ---#
-st.sidebar.image("logo.jpg")
+st.sidebar.image("logo.jpeg")
 st.sidebar.markdown("##")
 
 @st.cache
