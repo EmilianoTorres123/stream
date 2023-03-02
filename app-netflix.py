@@ -2,15 +2,13 @@ import pandas as pd
 import streamlit as st
 import codecs
 
-import pandas as pd
-import streamlit as st
-import codecs
 
 name_link =codecs.open('movies.csv','rU','latin1')
 
 
 st.title('netflix app')
-
+st.title('Nombre: Magdyel Aguilar Cid')
+st.title('Matricula:zS20020309')
 #--- LOGO ---#
 st.sidebar.image("logo.jpg")
 st.sidebar.markdown("##")
