@@ -3,7 +3,7 @@ import streamlit as st
 import codecs
 
 
-name_link =codecs.open('movies.csv','rU','latin1')
+name_link=codecs.open('movies.csv','rU','latin1')
 
 
 st.title('netflix app')
@@ -31,7 +31,7 @@ if agree:
     load_data(500)
 sidebar.markdown(name_link)
 
-selectitle = sidebar._text_input('Select title of the film')
+selectitle = sidebar._text_input('titulo de la pelicula')
 
 button_name = st.button("Buscar")
 if(button_name):
