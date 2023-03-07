@@ -24,7 +24,7 @@ def load_data(nrows):
     return data
 
 data_load_state = st.text('Ciclo de carga datos en nueva york...')
-data = load_data()
+data = load_data(500)
 data_load_state.text("Hecho! (using st.cache)")
 
 if st.sidebar.checkbox('Mostrar datos sin procesar'):
